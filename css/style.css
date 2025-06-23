@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Work Sans", sans-serif;
+    text-decoration: none;
+    font-optical-sizing: auto;
+    font-style: normal;    
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    border: 3px solid rgb(224, 222, 222);
+}
+.Hero{
+    display: flex;
+    flex-direction: column;
+    flex: 1.2;
+    box-sizing:border-box;
+    padding: 50px 80px;
+    background-color: rgb(12, 12, 73);
+    text-align: justify;
+    color: rgb(248, 245, 242);
+    font-size: larger;
+}
+.imagen{
+    flex: 0.8;
+    border-left: 0.5px solid white;
+    padding-left: 3px;
+}
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit:unset; 
+}
+h1{
+    background-color:rgb(7, 7, 128);
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(248, 245, 242);
+    padding: 25px 25px;
+    border: 3px solid #9b0c9b;
+}
+h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+hr{
+    background-color: #9b0c9b;
+    border: none;
+    height: 2px;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: rgb(7, 98, 202);
+    color: white;
+    text-decoration: none;
+    padding-left: 80px;
+    padding-right: 240px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 3px solid #9b0c9b;
+}
+a{
+    text-decoration: none;
+    color: inherit
+}
+a:hover{
+    color: #9b0c9b;
+    text-decoration: underline;
+}
+.fa-linkedin{
+    color: white;
+    font-size: 22px;
+}
+.fa-square-whatsapp{
+    color: #25D366;
+    font-size: 22px;
+}
